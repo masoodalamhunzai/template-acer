@@ -1,0 +1,481 @@
+html{
+    position: relative;
+}
+body{
+    position: relative;
+    margin: 0;
+}
+#header{
+    position: relative;
+    height: 140px;
+    margin: 0;
+    background-color:#22201df5;
+}
+#header .header-wrapper{
+    position: relative;
+}
+#header .header-wrapper .logo {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 5px;
+}
+#header .header-wrapper .logo img{
+    position: relative;
+    width: 130px;
+    height: 120px;
+}
+#header .header-wrapper .navbar{
+    position: relative;
+    float: right;
+}
+#header .header-wrapper .navbar ul{
+    position: relative;
+    display: inline;
+}
+#header .header-wrapper .navbar ul li{
+    position: relative;
+    display: inline-block;
+    line-height: 1rem;
+    padding: 20px;
+    color:#d9bc51;
+    font-weight: lighter;
+    
+}
+#slider {
+    position: relative;
+    height:560px;
+    margin-top: 10px;
+    background: url('../img/hotel.jpg') no-repeat;
+    
+}
+#slider .slider-wrapper{
+    position: relative;
+    padding: 200px;
+}
+#slider .slider-wrapper .slider-heading{
+    position: relative;
+}
+#slider .slider-wrapper .slider-heading h2{
+    margin: 0px;
+    position: relative;
+    font-size: 2rem;
+    color: #f7d356;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+#slider .slider-wrapper .slider-para{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+   
+}
+#slider .slider-wrapper .slider-para p{
+    position: relative;
+    font-size: 1rem;
+    color:#ba9f40;
+    font-weight: lighter;
+    /* text-transform: uppercase; */
+    padding: 5px;
+    word-spacing: 5px;
+    line-height: 1.2em;
+    /* display: inline-block; */
+    box-sizing: border-box; 
+    /* text-align: center; */
+}
+#slider .slider-wrapper .slider-button {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+#slider .slider-wrapper .slider-button button{
+    position: relative;
+    width: 150px;
+    font-size: 0.9rem;
+    height: 50px;
+    color:#ab7f34;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 3px;
+    border-radius: 5px;
+    border: 0;
+}
+#about{
+    position: relative;
+    height: 600px;
+    background-color:#cccfd3;
+    margin-top: 10px;
+    padding: 40px;
+    box-sizing: border-box; 
+}
+#about .about-wrapper{
+    position: relative;
+}
+#about .about-wrapper .about-heading{
+    position: relative;
+}
+
+#about .about-wrapper .about-heading h2{
+    margin: 0px;
+    position: relative;
+    color:#b0931c;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+#about .about-wrapper .about-para{
+    position: relative;
+    width: 83%;
+    margin: 0 auto;
+}
+#about .about-wrapper .about-para p{
+    position: relative;
+    color:#6c3909;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+#gallery {
+    position: relative;
+    height: 740px;
+    margin-top:10px;
+    background-color:#d9d9ce;
+}
+#gallery .gallery-wrapper {
+    position: relative; 
+    box-sizing: border-box;
+    
+}
+#gallery .gallery-wrapper .gallery-heading h2{
+    margin: 0px;
+    position: relative;
+    color:#b0931c;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+   
+}
+#gallery .gallery-wrapper .gallery-img{
+    position: relative;  
+    text-align: center;
+   
+}
+#gallery .gallery-wrapper .gallery-img .img-box_1{
+    position: relative;
+    display: block;
+    padding: 15px 0px;
+    box-sizing: border-box;
+
+    }
+#gallery .gallery-wrapper .gallery-img .img-box_2{
+    position: relative;
+    display: block;
+    padding: 15px 0px;
+    box-sizing: border-box;
+
+    }
+#gallery .gallery-wrapper .gallery-img img{
+    position: relative;  
+    width: 350px;
+    height: 280px;
+    border: 1px groove  #ece8e8; 
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+#our-team{
+  position: relative;
+  height: 680px;
+  margin-top: 10px;
+  background-color: #dbdbd9;
+  /* padding:30px; */
+  box-sizing: border-box;
+}
+#our-team .team-wrapper .team-heading{
+ position: relative;
+ padding: 30px;
+ /* text-align: center; */
+  
+}
+#our-team .team-wrapper .team-heading h2{
+    margin: 0px;
+    position: relative;
+    color:#b0931c;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+     
+}
+#our-team .team-wrapper{
+ position: relative;
+ text-align: center;
+  
+}
+#our-team .team-wrapper .team-member_1{
+    position: relative;
+    width: 300px;
+    height: 540px;
+    background-color:#f6f5f1;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 35px;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#our-team .team-wrapper .team-member_2{
+    position: relative;
+    width: 300px;
+    height: 540px;
+    background-color:#f6f5f1;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#our-team .team-wrapper .team-member_3{
+    position: relative;
+    width: 300px;
+    height: 540px;
+    background-color:#f6f5f1;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#our-team .team-wrapper .team-member_1 .team-img{
+ position: relative;
+ margin: 0 auto;
+  
+}
+#our-team .team-wrapper .team-member_1 .team-img img{
+  position: relative;
+  display: inline-block;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 30px;
+
+}
+#our-team .team-wrapper .team-member_1 .team-heading{
+    position: relative;
+}
+#our-team .team-wrapper .team-member_1 .team-heading h2{
+    position: relative;
+    color: #333227;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+   }
+   #our-team .team-wrapper .team-member_1 .team-para{
+       position: relative;
+   }  
+#our-team .team-wrapper .team-member_1 .team-para p{
+    position: relative;
+    color: #413d3d;
+    line-height: 1.6em;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bold;
+   }
+#our-team .team-wrapper .team-member_2 .team-img{
+ position: relative;
+ margin: 0 auto;
+  
+}
+#our-team .team-wrapper .team-member_2 .team-img img{
+  position: relative;
+  display: inline-block;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 30px;
+
+}
+#our-team .team-wrapper .team-member_2 .team-heading{
+    position: relative;
+}
+#our-team .team-wrapper .team-member_2 .team-heading h2{
+    position: relative;
+    color: #333227;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+   }
+   #our-team .team-wrapper .team-member_2 .team-para{
+       position: relative;
+   }  
+#our-team .team-wrapper .team-member_2 .team-para p{
+    position: relative;
+    color: #413d3d;
+    line-height: 1.6em;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bold;
+   }
+#our-team .team-wrapper .team-member_3 .team-img{
+ position: relative;
+ margin: 0 auto;
+  
+}
+#our-team .team-wrapper .team-member_3 .team-img img{
+  position: relative;
+  display: inline-block;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 30px;
+
+}
+#our-team .team-wrapper .team-member_3 .team-heading{
+    position: relative;
+}
+#our-team .team-wrapper .team-member_3 .team-heading h2{
+    position: relative;
+    color: #333227;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+   }
+   #our-team .team-wrapper .team-member_3 .team-para{
+       position: relative;
+   }  
+#our-team .team-wrapper .team-member_3 .team-para p{
+    position: relative;
+    color: #413d3d;
+    line-height: 1.6em;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bold;
+   }
+#contact-form {
+    position: relative;
+    background-color: #1a1816;
+    margin-top: 10px;
+    height: 560px;
+    text-align: center;
+}
+#contact-form .contact-wrapper {
+    position: relative;
+    display: inline-block;
+}
+#contact-form .contact-wrapper .contact-heading {
+    position: relative;
+    display: inline;
+    padding: 20px;
+}
+#contact-form .contact-wrapper .contact-heading h2{
+    margin: 0px;
+    position: relative;
+    color:#b0931c;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+#contact-form .contact-wrapper .input-wrapper{
+    position: relative;
+    width: 100%;
+}
+#contact-form .contact-wrapper .input-wrapper .contact-input-box1{
+    position: relative;
+     padding: 10px;
+     width:30%;
+     line-height: 80px;
+     display: inline-block; 
+}
+#contact-form .contact-wrapper .input-wrapper .contact-input-box1  input{
+    position: relative;
+    width:400px;
+    height:40px;
+    text-align: center;
+    color:#896111;
+    display: inline-block;    
+}
+#contact-form .contact-wrapper .input-wrapper .contact-input-box2{
+    position: relative;
+     padding: 10px;
+     width:30%;
+     line-height: 120px;
+     display: inline-block;
+}
+#contact-form .contact-wrapper .input-wrapper .contact-input-box2 input{
+    position: relative;
+    text-align: center;
+    width:400px;
+    height:40px;
+    color:  #896111;
+    display: inline-block;
+}
+#contact-form .contact-wrapper .input-wrapper .contact-input-box2  textarea{
+    position: relative;
+    text-align: center;
+    width:400px;
+    height:180px;
+    color: #896111;
+    /* display: inline;  */
+}
+/* #contact-form .contact-wrapper   .contact-input_right{
+ position: relative;
+ 
+} 
+*/
+#contact-form .contact-wrapper .input-wrapper .contact-input-box2  button{
+    position: relative;
+    width:160px;
+    height:50px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: block;
+    color: #995b1c;
+    float: right;
+}
+#footer{
+    position: relative;
+    height: 80px;
+    background-color: #221e19;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+#footer .footer-wrapper{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+
+}
+#footer .footer-wrapper .social-icons{
+    position: relative;
+    display: inline;  
+    }
+    
+#footer .footer-wrapper .social-icons img{
+    position: relative;
+    width: 25px;
+    padding: 3px;
+    height: 25px;
+    }
+#footer .footer-wrapper .footer-text {
+    position: relative;
+    
+    }
+#footer .footer-wrapper .footer-text p{
+    position: relative;
+    font-size: 0.9rem;
+    color: #f6f3f3;
+    line-height: 2em;
+    text-align: center;
+    margin: 0px;
+    }
