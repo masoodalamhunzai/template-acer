@@ -1,0 +1,1 @@
+This is hotel template using css and html
